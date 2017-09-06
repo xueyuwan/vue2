@@ -16,7 +16,6 @@
       <el-form-item label="店铺标语">
         <el-input v-model="form.slogan"></el-input>
       </el-form-item>
-
       <el-form-item label="店铺特点" style="white-space: nowrap;">
         <span>品牌保证</span>
         <el-switch on-text="" off-text="" v-model="form.delivery"></el-switch>

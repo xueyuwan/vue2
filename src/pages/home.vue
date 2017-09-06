@@ -3,7 +3,7 @@
     <headertop></headertop>
     <h1>{{ msg }}</h1>
     <div id="charts">
-      <div id="main" :style="{width:'100%',height:'600px'}"></div>
+      <div id="main" :style="{width:'90%',height:'600px'}"></div>
     </div>
   </div>
 </template>
@@ -16,11 +16,11 @@ require('echarts/lib/chart/line');
 require('echarts/lib/component/tooltip');
 require('echarts/lib/component/title');
 require('echarts/lib/component/toolbox');
-import headertop from'./../components/headertop'
+import headertop from './../components/headertop'
 export default {
   name: 'hello',
-  components:{
-     headertop
+  components: {
+    headertop
   },
   data() {
     return {
@@ -49,7 +49,7 @@ export default {
         }
       },
       legend: {
-           data: ['订单量', '营业额', '收益走势']
+        data: ['订单量', '营业额', '收益走势']
       },
       xAxis: [
         {
