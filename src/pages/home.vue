@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import headertop from'./headertop'
 let echarts = require('echarts/lib/echarts');
 // 引入折现图
 require('echarts/lib/chart/line');
@@ -17,7 +16,7 @@ require('echarts/lib/chart/line');
 require('echarts/lib/component/tooltip');
 require('echarts/lib/component/title');
 require('echarts/lib/component/toolbox');
-
+import headertop from'./../components/headertop'
 export default {
   name: 'hello',
   components:{

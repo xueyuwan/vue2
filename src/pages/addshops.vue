@@ -39,7 +39,6 @@
       <el-form-item label="起送价" prop="float_minimum_order_amount">
         <el-input-number v-model="form.float_minimum_order_amount" :min="0" :max="100"></el-input-number>
       </el-form-item>
-
       <el-form-item label="营业时间">
         <el-time-select placeholder="起始时间" v-model="form.startTime" :picker-options="{
   							start: '05:30',
@@ -55,7 +54,6 @@
   							}">
         </el-time-select>
       </el-form-item>
-
       <el-form-item label="活动性质">
         <el-checkbox-group v-model="form.type">
           <el-checkbox label="美食/餐厅线上活动" name="type"></el-checkbox>

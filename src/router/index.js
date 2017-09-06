@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
+import Home from './../pages/home.vue'
 import UserList from '../pages/userlist.vue'
 import GoodsList from '../pages/goodslist.vue'
 import AddShops from '../pages/addshops.vue'
@@ -13,8 +13,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      name: 'Home',
+      component: Home
     },
     {
       path: '/userList',
